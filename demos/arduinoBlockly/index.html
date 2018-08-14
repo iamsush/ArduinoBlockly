@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arduino Blockly Syncup</title>
+    <script src="../../blockly_compressed.js"></script>
+    <script src="../../blocks_compressed.js"></script>
+    <script src="../../javascript_compressed.js"></script>
+    <script src="./js/customblocks.js"></script>
+</head>
+<body>
+  <div id="blocklyDiv" style="height: 480px; width: 600px;"></div>
+  <xml id="toolbox" style="display: none">
+    <category  name= "Arduino">
+      <block type = "led_light">
+        <field name = "high">1</field>
+        <field name = "low">2</field>
+      </block>
+    </category>
+  </xml>
+
+  <button id = "getCode">Get Code</button>
+  <button id = "compileCode">Compile Code</button>
+  <!-- <button id = "runCode">Run Code</button> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/arduino.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "builtInLibrariesFolders": "/home/sushant/Sushant/blockly/blockly/demos/arduinoBlockly/arduino-1.8.5/libraries",
+  "customBuildProperties": "",
+  "fqbn": "arduino:avr:uno",
+  "hardwareFolders": "/home/sushant/Sushant/blockly/blockly/demos/arduinoBlockly/arduino-1.8.5/hardware",
+  "otherLibrariesFolders": "/home/sushant/Arduino/libraries",
+  "runtime.ide.version": "10600",
+  "sketchLocation": "/home/sushant/Sushant/blockly/blockly/demos/arduinoBlockly/tmp/arduinoFile.ino",
+  "toolsFolders": "/home/sushant/Sushant/blockly/blockly/demos/arduinoBlockly/arduino-1.8.5/tools-builder,/home/sushant/Sushant/blockly/blockly/demos/arduinoBlockly/arduino-1.8.5/hardware/tools/avr"
+}
